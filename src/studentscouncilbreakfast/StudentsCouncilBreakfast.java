@@ -35,7 +35,7 @@ public class StudentsCouncilBreakfast {
             int noTickets=printTickets(tickets);
             if (min>noTickets) min=noTickets;
         }
-        System.out.println("Total combination is "+ticketsList.size()+".");
+        System.out.println("Total combinations is "+ticketsList.size()+".");
         System.out.printf("Minimum number of tickets to print is %d.",min);
     }
 
